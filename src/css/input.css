@@ -60,7 +60,7 @@
     font-style: normal;
     letter-spacing: 0.4rem;
     font-weight: 200;
-    src: url("/src/font/storm_gust/Storm_Gust.ttf") format("truetype");
+    src: url("./Storm_Gust.ttf") format("truetype");
   }
 }
 
