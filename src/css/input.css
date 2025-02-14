@@ -60,17 +60,9 @@
     font-style: normal;
     letter-spacing: 0.4rem;
     font-weight: 200;
-    font-display: swap;
-    src: url("./src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
+    src: url("/src/font/storm_gust/Storm_Gust.ttf") format("truetype");
   }
 }
 
-@font-face {
-  font-family: "storm";
-  font-style: normal;
-  letter-spacing: 0.4rem;
-  font-weight: 200;
-  font-display: swap;
-  src: url("./src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
-}
+
 

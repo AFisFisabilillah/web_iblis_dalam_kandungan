@@ -898,9 +898,7 @@ input[type="range"]::-ms-fill-lower {
 
   font-weight: 200;
 
-  font-display: swap;
-
-  src: url("./src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
+  src: url("/src/font/storm_gust/Storm_Gust.ttf") format("truetype");
 }
 
 .sr-only {
@@ -1536,20 +1534,6 @@ input[type="range"]::-ms-fill-lower {
   }
 }
 
-@font-face {
-  font-family: "storm";
-
-  font-style: normal;
-
-  letter-spacing: 0.4rem;
-
-  font-weight: 200;
-
-  font-display: swap;
-
-  src: url("./src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
-}
-
 .hover\:bg-blue-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
@@ -1762,4 +1746,6 @@ input[type="range"]::-ms-fill-lower {
     }
   }
 }
+
+
 
