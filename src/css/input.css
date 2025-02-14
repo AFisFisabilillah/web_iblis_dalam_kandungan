@@ -61,7 +61,7 @@
     letter-spacing: 0.4rem;
     font-weight: 200;
     font-display: swap;
-    src: url("/src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
+    src: url("./src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
   }
 }
 
@@ -71,5 +71,6 @@
   letter-spacing: 0.4rem;
   font-weight: 200;
   font-display: swap;
-  src: url("/src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
+  src: url("./src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
 }
+

@@ -900,7 +900,7 @@ input[type="range"]::-ms-fill-lower {
 
   font-display: swap;
 
-  src: url("/src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
+  src: url("./src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
 }
 
 .sr-only {
@@ -1547,7 +1547,7 @@ input[type="range"]::-ms-fill-lower {
 
   font-display: swap;
 
-  src: url("/src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
+  src: url("./src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
 }
 
 .hover\:bg-blue-700:hover {
@@ -1762,3 +1762,4 @@ input[type="range"]::-ms-fill-lower {
     }
   }
 }
+

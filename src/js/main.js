@@ -1,3 +1,4 @@
+
 let navbar = document.getElementsByTagName("nav")[0];
 let jumbotron = document.querySelector(".jumbotron-header");
 let fadeIn = document.querySelectorAll(".fade-in");
