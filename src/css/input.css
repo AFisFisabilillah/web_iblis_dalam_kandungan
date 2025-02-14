@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+
+.scroll {
+    @apply backdrop-blur-xl shadow-md shadow-primary-red-one;
+}
+.fade-in,.jumbotron-header{
+  @apply -translate-y-10 opacity-0 transition-all duration-[800ms] ; 
+}
+
+.fade-left{
+  @apply -translate-x-10 opacity-0 transition-all duration-[800ms] ; 
+}
+.fade-right{
+  @apply -translate-x-10 opacity-0 transition-all duration-[800ms] ; 
+}
+
+
+.fade-y-active{
+  @apply translate-y-0 opacity-100;
+}
+.fade-x-active{
+  @apply translate-x-0 opacity-100;
+}
+.profile-shadow {
+  -webkit-box-shadow: -1px -1px 68px -4px rgba(139, 1, 1, 1);
+  -moz-box-shadow: -1px -1px 68px -4px rgba(139, 1, 1, 1);
+  box-shadow: -1px -1px 68px -4px rgba(139, 1, 1, 1);
+}
+.shadow-custom-active {
+    animation: shadowAnimation 1s linear forwards;
+}
+@keyframes shadowAnimation {
+  0% {
+    box-shadow: -10px 10px 0px rgba(139, 1, 1, 1);
+  }
+  25% {
+    box-shadow: -10px 10px 0px rgba(139, 1, 1, 1),
+      -20px 20px 0px rgba(139, 1, 1, 0.7);
+  }
+  50% {
+    box-shadow: -10px 10px 0px rgba(139, 1, 1, 1),
+      -20px 20px 0px rgba(139, 1, 1, 0.7),
+      -30px 30px 0px rgba(139, 1, 1, 0.4);
+  }
+  100% {
+    box-shadow: -10px 10px 0px rgba(139, 1, 1, 1),
+      -20px 20px 0px rgba(139, 1, 1, 0.7),
+      -30px 30px 0px rgba(139, 1, 1, 0.4),
+      -40px 40px 0px rgba(139, 1, 1, 0.1);
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "storm";
+    font-style: normal;
+    letter-spacing: 0.4rem;
+    font-weight: 200;
+    font-display: swap;
+    src: url("/src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
+  }
+}
+
+@font-face {
+  font-family: "storm";
+  font-style: normal;
+  letter-spacing: 0.4rem;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/src/font/storm_gust/Storm\ Gust.ttf") format("truetype");
+}
