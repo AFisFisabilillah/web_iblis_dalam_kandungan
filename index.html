@@ -413,9 +413,15 @@
     </main>
     <footer class="py-6 bg-black">
       <h1 class="text-center text-2xl font-strom text-primary-red-one">Copyright &#169; Afis Fisabillah</h1>
+      <audio id="my_audio" src="https://cdn.pixabay.com/audio/2024/03/31/audio_c777927c26.mp3" loop="loop"></audio>
     </footer>
 
     <script src="./src/js/main.js"></script>
     <script src="./src/js/flowbite.js"></script>
+    <script>
+      window.onload = function() {
+          document.getElementById("my_audio").play();
+      }
+    </script>
   </body>
 </html>
